@@ -1,0 +1,121 @@
+
+.container{
+    background: #13121D;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.container .LoginPage{
+    background: rgba(250, 250, 250, 0.336);
+    margin: auto;
+    width: 540px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.Loginform .formheader{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    background: #272638;
+    padding: 15px;
+}
+
+.Loginform .field-group{
+    padding: 20px;
+    background-color: #464564;
+}
+
+.Loginform .field-group .form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.field-group .form-control label{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.field-group .form-control input{
+    appearance: none;
+    background-clip: padding-box;
+    background-color: transparent;
+    border: 1px solid #9190ae;
+    border-radius: 0.75rem;
+    color: rgba(242,242,248,.87);
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.532rem 0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.field-group .form-control input:focus{
+    background-color: transparent;
+    border-color: #ef5483;
+    box-shadow: 0 0 0 0.25rem rgba(239,84,131,.25);
+    color: rgba(242,242,248,.87);
+    outline: 0;
+}
+
+.field-group .forgetlink{
+    color: #ef5483;
+}
+
+.field-group .form-control .submitbutton{
+    margin-top: 20px;
+    background-color: #ef5483;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all ease .3s;
+}
+
+.field-group .form-control .submitbutton:hover{
+    background: #ff004c;
+}
+
+.field-group .orTag{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.field-group hr{
+    border: 1px solid #9190ae;
+    width: -webkit-fill-available;
+    height: fit-content;
+    margin: 10px;
+}
+
+.field-group .form-control .social{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: #5A597A;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.field-group .form-control .social:hover{
+    border-color: #ef5483;
+    box-shadow: 0 0 .5rem 0.25rem rgba(239,84,131,.25);
+    outline: 0;
+    color: #ef5483;
+}
+
+.field-group .form-control .social span{
+    text-align: center;
+    width: 100%;
+}
